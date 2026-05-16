@@ -1,70 +1,240 @@
-# Getting Started with Create React App
+## DevSync — Smart Workforce & Project Management Platform
+DevSync is a modern React-based workforce and project management platform designed for software companies and teams. The application helps managers assign tasks, track attendance, monitor employee productivity, and analyze workflow statistics through a clean and responsive dashboard.
+This project is built to demonstrate advanced React concepts including Hooks, Context API, Reducers, API integration, performance optimization, reusable custom hooks, and scalable component architecture.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+## Authentication System
 
-### `npm start`
+ User login/logout
+ Protected dashboard access
+ Global authentication state using Context API + Reducer
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Task Management
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ Add tasks
+ Delete tasks
+ Mark tasks as completed
+ Dynamic task filtering
+ Search functionality
 
-### `npm test`
+## Attendance Tracking
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ Mark employees:
 
-### `npm run build`
+   Present
+   Absent
+   Remote
+ Attendance statistics
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Dashboard Analytics
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ Total tasks
+ Completed tasks
+ Pending tasks
+ Attendance percentage
+ Live dashboard updates
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Theme Customization
 
-### `npm run eject`
+ Dark mode
+ Light mode
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Notifications System
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ Global notifications
+ Task update alerts
+ Attendance alerts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## API Integration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ HTTP GET requests
+ HTTP POST requests
+ Fetching tasks from external APIs
 
-## Learn More
+## Performance Optimization
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ React.memo
+ useMemo
+ useCallback
+ State immutability optimization
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Custom Hooks
 
-### Code Splitting
+ useFetch
+ useInput
+ useCounter
+ useDocumentTitle
+ useLocalStorage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+# Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ React.js
+ JavaScript (ES6+)
+ Context API
+ useReducer
+ Hooks
+ CSS3
+ REST APIs
+ JSONPlaceholder API
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Project Structure
 
-### Advanced Configuration
+```bash
+src/
+│
+├── api/
+├── assets/
+├── components/
+├── context/
+├── hooks/
+├── reducers/
+├── pages/
+├── utils/
+├── App.jsx
+├── App.css
+└── main.jsx
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+#  React Concepts Implemented
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Hooks
 
-### `npm run build` fails to minify
+ useState
+ useEffect
+ useContext
+ useReducer
+ useRef
+ useMemo
+ useCallback
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Advanced Concepts
+
+ State immutability
+ Conditional rendering
+ List rendering
+ Global state management
+ Cleanup functions
+ Previous state updates
+ Component optimization
+
+---
+
+# API Endpoints Used
+
+## Fetch Tasks
+
+```bash
+GET https://jsonplaceholder.typicode.com/todos
+```
+
+## Add Task
+
+```bash
+POST https://jsonplaceholder.typicode.com/todos
+```
+
+---
+
+# Installation
+
+## Clone the repository
+
+```bash
+git clone https://github.com/kakstalentcommunity/devsync.git
+```
+
+## Navigate into the project
+
+```bash
+cd devsync
+```
+
+## Install dependencies
+
+```bash
+npm install
+```
+
+## Run the development server
+
+```bash
+npm run dev // npm start
+```
+
+---
+
+#  UI Highlights
+
+ Responsive dashboard layout
+ Modern sidebar navigation
+ Analytics cards
+ Dynamic task cards
+ Smooth hover effects
+ Dark/light mode support
+
+---
+
+# Learning Objectives
+
+This project was designed to strengthen understanding of:
+
+ React fundamentals
+ Hooks architecture
+ API communication
+ Global state management
+ Component optimization
+ Reducer patterns
+ Scalable frontend structure
+ Debugging React applications
+
+---
+
+# Future Improvements
+
+ Firebase Authentication
+ Supabase Backend
+ React Router
+ Real-time notifications
+ Charts and analytics
+ TypeScript migration
+ Unit testing
+ Drag-and-drop task management
+
+---
+
+# Portfolio Value
+
+DevSync demonstrates:
+
+ Professional React architecture
+ Real-world dashboard design
+ Advanced Hooks usage
+ Reducer and Context integration
+ Performance optimization techniques
+ API integration skills
+
+This makes it suitable for:
+
+ Internship applications
+ Junior frontend developer portfolios
+ Freelance showcases
+ Technical interviews
+
+---
+
+# Author
+
+Kennedy Musyoki
+
+Computer Science Student | React Developer | Frontend Enthusiast
+
+---
