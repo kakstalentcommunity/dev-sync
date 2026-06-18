@@ -2,6 +2,7 @@
 DevSync is a modern React-based workforce and project management platform designed for software companies and teams. The application helps managers assign tasks, track attendance, monitor employee productivity, and analyze workflow statistics through a clean and responsive dashboard.
 This project is built to demonstrate advanced React concepts including Hooks, Context API, Reducers, API integration, performance optimization, reusable custom hooks, and scalable component architecture.
 
+<<<<<<< HEAD
 ---
 
 ## Features
@@ -116,6 +117,121 @@ src/
  useMemo
  useCallback
 
+=======
+
+
+## Features
+
+## Authentication System
+
+ User login/logout
+ Protected dashboard access
+ Global authentication state using Context API + Reducer
+
+## Task Management
+
+ Add tasks
+ Delete tasks
+ Mark tasks as completed
+ Dynamic task filtering
+ Search functionality
+
+## Attendance Tracking
+
+ Mark employees:
+
+   Present
+   Absent
+   Remote
+ Attendance statistics
+
+## Dashboard Analytics
+
+ Total tasks
+ Completed tasks
+ Pending tasks
+ Attendance percentage
+ Live dashboard updates
+
+## Theme Customization
+
+ Dark mode
+ Light mode
+
+## Notifications System
+
+ Global notifications
+ Task update alerts
+ Attendance alerts
+
+## API Integration
+
+ HTTP GET requests
+ HTTP POST requests
+ Fetching tasks from external APIs
+
+## Performance Optimization
+
+ React.memo
+ useMemo
+ useCallback
+ State immutability optimization
+
+## Custom Hooks
+
+ useFetch
+ useInput
+ useCounter
+ useDocumentTitle
+ useLocalStorage
+
+
+
+# Technologies Used
+
+ React.js
+ JavaScript (ES6+)
+ Context API
+ useReducer
+ Hooks
+ CSS3
+ REST APIs
+ JSONPlaceholder API
+
+
+
+# Project Structure
+
+```bash
+src/
+│
+├── api/
+├── assets/
+├── components/
+├── context/
+├── hooks/
+├── reducers/
+├── pages/
+├── utils/
+├── App.jsx
+├── App.css
+└── main.jsx
+
+
+
+#  React Concepts Implemented
+
+## Hooks
+
+ useState
+ useEffect
+ useContext
+ useReducer
+ useRef
+ useMemo
+ useCallback
+
+>>>>>>> 55d6d6b (Update dev-sync)
 ## Advanced Concepts
 
  State immutability
@@ -126,7 +242,11 @@ src/
  Previous state updates
  Component optimization
 
+<<<<<<< HEAD
 ---
+=======
+
+>>>>>>> 55d6d6b (Update dev-sync)
 
 # API Endpoints Used
 
@@ -237,4 +357,8 @@ Kennedy Musyoki
 
 Computer Science Student | React Developer | Frontend Enthusiast
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> 55d6d6b (Update dev-sync)
